@@ -1,4 +1,4 @@
-# SubjectReport — Identity & Business Context
+# SubjectReport — Identity &amp; Business Context
 
 This file is auto-loaded every session. It is the agent's standing context on who SubjectReport is, what it sells, and how it operates. Everything else in this repo (goals, workflows, skills) executes against this context.
 
@@ -12,7 +12,7 @@ Operator: Kyron Cumby.
 
 ## The Brand Line
 
-> "The athlete is not the product. They are the subject."
+&gt; "The athlete is not the product. They are the subject."
 
 This is the organizing idea behind every product, every piece of content, and every customer interaction. SubjectReport sells verified evaluation and visibility — never exposure, never hype, never a promise about offers or rankings.
 
@@ -22,13 +22,13 @@ Primary customer: the parent, as decision-maker, of a high-school (or younger) a
 
 Secondary audience: event admins, combine operators, camp directors, and HS recruiting staff who use Staff Tools (admin-side, not athlete-facing).
 
-## Products & Pricing
+## Products &amp; Pricing
 
 | Product | Price | Type | What's included |
 |---|---|---|---|
 | Player Transcript | $249 | One-time, 48hr turnaround | Player transcript (downloadable), recruiting tape, written player summary, graded evaluation |
-| Recruiting Program | $1,500 | One-time, 6 weeks | Weekly recruiting education, personalized recruiting blueprint, advanced film breakdown, target school list + outreach templates, live group Q&A |
-| Full Athlete Package | $5,000 | One-time | Everything in the 6-week program + player transcript, private coaches database, 1:1 college placement specialist, NIL & financial literacy readiness, media & marketing strategist, full coaches directory access |
+| Recruiting Program | $1,500 | One-time, 6 weeks | Weekly recruiting education, personalized recruiting blueprint, advanced film breakdown, target school list + outreach templates, live group Q&amp;A |
+| Full Athlete Package | $5,000 | One-time | Everything in the 6-week program + player transcript, private coaches database, 1:1 college placement specialist, NIL &amp; financial literacy readiness, media &amp; marketing strategist, full coaches directory access |
 | Prospect Membership | $99/month | Recurring, cancel anytime | Direct access to the coaches database (D1, FCS, D2, D3, JUCO, NAIA, post-grad) |
 | Team/circuit group pricing | Custom | Custom | Built per roster and event structure for 7v7 circuits, HS programs, combine operators |
 
@@ -40,7 +40,7 @@ The Player Transcript is the front door: it's the cheapest entry point and the t
 2. **Advanced film breakdown** — every play graded on assignment, technique, effort, execution by trained analysts inside Optimum Grading (the same platform 350+ coaching staffs use), via Prospect Edge.
 3. **Recruiting education** — weekly curriculum on what recruiters want, what to send, when to send it.
 4. **Recruiting blueprint** — personalized target list, outreach templates, timeline by class year.
-5. **Launch & place** — player transcript delivered, outreach campaign, placement specialist support.
+5. **Launch &amp; place** — player transcript delivered, outreach campaign, placement specialist support.
 
 The 48-hour SLA on transcript delivery is a hard operational commitment, not a marketing line — see `workflows/daily.md` Step 2.
 
@@ -51,7 +51,7 @@ The 48-hour SLA on transcript delivery is a hard operational commitment, not a m
 - **1:1** dedicated college placement specialist for Full Athlete clients
 - **100%** of evaluations are film-backed — every grade links to the exact play
 
-## Platforms & Systems Referenced
+## Platforms &amp; Systems Referenced
 
 - **Optimum Grading** — the underlying grading platform (optimumgrading.com)
 - **Prospect Edge** — the evaluation tool built on Optimum Grading (prospectedge.optimumgrading.com)
@@ -73,3 +73,21 @@ The 48-hour SLA on transcript delivery is a hard operational commitment, not a m
 - `skills/srvoice/SKILL.md` — exact tone, banned words, and visual identity reference for anything customer-facing
 - `skills/evaluation-processing/SKILL.md` — how a raw transcript becomes a family-facing summary
 - `feedback/feedback-log.md` — Kyron's standing corrections; always read first, every session
+
+## SubjectOS Command
+
+**Reference:** `SUBJECT-OS-MASTER.md` (`Groundfloorsports/trail-of-joy/`) — the full strategic architecture this repo executes one piece of (SubjectReport = the Attention Engine).
+
+Every time this agent receives new information — a customer message, a competitor move, a market signal, a piece of feedback — it should ask:
+
+&gt; Does this improve Attention, Trust, Data, Systems, AI, or Opportunity?
+
+**If NO:** Ignore it.
+
+**If YES**, determine:
+- Which company benefits? (Usually SubjectReport, but cross-sell signals may belong to Subject Media or TOJ Advisory instead)
+- Which KPI improves? (Reach, Email Subscribers, Content Views, Community Growth — see `goals/goals.md`)
+- Which agent should own it? (See `agents/README.md` for the six Core Agent Stack roles mapped to this repo)
+- Which SOP should document it? (Update the relevant `workflows/` or `skills/` file)
+- Can it become an asset? (Email list, database, content, prompt — log in `feedback/improvements.md`)
+- Can it become automated? (Flag for `MATURITY.md` Level 4/5 progress)
